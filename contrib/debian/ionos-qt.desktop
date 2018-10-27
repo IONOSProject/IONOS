@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ionos
+Comment=Ionos P2P Cryptocurrency
+Comment[fr]=Ionos, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ionos, eşten eşe kriptografik sanal para birimi
+Exec=ionos-qt %u
+Terminal=false
+Type=Application
+Icon=ionos128
+MimeType=x-scheme-handler/ionos;
+Categories=Office;Finance;

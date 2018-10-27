@@ -1,0 +1,26 @@
+# /etc/conf.d/ionosd: config file for /etc/init.d/ionosd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ionos/ionos.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ionosd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ionosd.pid"
+
+# Where to write ionosd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ionosd"
+
+# User and group to own ionosd process
+#BITCOIND_USER="ionos"
+#BITCOIND_GROUP="ionos"
+
+# Path to ionosd executable
+#BITCOIND_BIN="/usr/bin/ionosd"
+
+# Nice value to run ionosd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

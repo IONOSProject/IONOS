@@ -1,0 +1,11 @@
+[Protocol]
+exec=ionos-qt '%u'
+protocol=ionos
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
